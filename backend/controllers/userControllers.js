@@ -53,7 +53,7 @@ const login = asyncHandler(async (req, res) => {
     });
   } else {
     res.status(401);
-    throw new Error("Invalid Email or Pa ssword");
+    throw new Error("Invalid Email or Password");
   }
 });
 
